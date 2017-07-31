@@ -43,7 +43,11 @@ public class SubjectsAdapter extends RecyclerView.Adapter<SubjectsAdapter.Button
                 mSubString=res.getStringArray(R.array.IT_Subjects_sem2);
             }
             if(branch== SubjectContract.SubjectEntry.MECH){
+<<<<<<< HEAD
                 mSubString=res.getStringArray(R.array.MECH_Subjects_sem2);
+=======
+                mSubString=res.getStringArray(R.array.MECH_Subjects_sem2);7
+>>>>>>> 955a056b7f092abaec47d625f1e5ec49302371a0
             }
         }
 

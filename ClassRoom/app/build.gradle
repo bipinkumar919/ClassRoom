@@ -5,7 +5,11 @@ android {
     buildToolsVersion "26.0.0"
     defaultConfig {
         applicationId "com.example.akshay.classroom"
+<<<<<<< HEAD
         minSdkVersion 21
+=======
+        minSdkVersion 19
+>>>>>>> 955a056b7f092abaec47d625f1e5ec49302371a0
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
@@ -17,7 +21,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+<<<<<<< HEAD
     sourceSets { main { assets.srcDirs = ['src/main/assets', 'src/main/assets/fonts'] } }
+=======
+>>>>>>> 955a056b7f092abaec47d625f1e5ec49302371a0
 }
 
 dependencies {
@@ -25,11 +32,18 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
+<<<<<<< HEAD
 
     compile 'com.android.support:appcompat-v7:26.+'
     compile 'com.android.support:recyclerview-v7:26.+'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.codemybrainsout.onboarding:onboarder:1.0.3'
 
+=======
+    compile 'com.android.support:appcompat-v7:26.+'
+
+    compile 'com.android.support:recyclerview-v7:26.+'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+>>>>>>> 955a056b7f092abaec47d625f1e5ec49302371a0
     testCompile 'junit:junit:4.12'
 }

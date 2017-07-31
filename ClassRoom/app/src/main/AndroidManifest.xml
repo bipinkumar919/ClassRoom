@@ -10,16 +10,23 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
+<<<<<<< HEAD
 
         </activity>
         <activity android:name=".SelectBranch" />
         <activity android:name=".AppInfo">
+=======
+>>>>>>> 955a056b7f092abaec47d625f1e5ec49302371a0
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
+=======
+        <activity android:name=".SelectBranch"></activity>
+>>>>>>> 955a056b7f092abaec47d625f1e5ec49302371a0
     </application>
 
 </manifest>
